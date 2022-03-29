@@ -1,0 +1,61 @@
+.signup {
+  width: 30%;
+  height: fit-content;
+  margin: 10px auto;
+  font-family: Ember;
+}
+.login__logo {
+  height: 60px;
+  display: flex;
+  margin: 0 auto;
+}
+.loginInput__container {
+  padding: 25px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+.signup__form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.inputsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.inputsection > label {
+  font-family: Ember-head;
+  font-weight: 100;
+}
+.inputsection > input {
+  padding: 8px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.inputsection > input:focus {
+  border: 1px solid rgb(231, 118, 0);
+  box-shadow: 0px 0px 3px 1px rgb(231, 118, 0);
+}
+.signup__form > button{
+  padding: 8px;
+  background-color: #fad06e;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.signup__form > button:hover{
+ background-color: #f8c857; 
+}
+.signin__redirectLink{
+  margin: 10px;
+  display: flex; 
+  align-items: center;
+
+}
+.signin__redirectLink > a{
+  margin-left: 5px;
+}

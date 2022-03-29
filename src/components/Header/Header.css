@@ -1,0 +1,106 @@
+.header {
+  font-family: Ember-normal;
+  color: white;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+}
+.header__top {
+  padding: 5px;
+  display: flex;
+  background-color: #131921;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header__logo {
+  height: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.small {
+  font-size: 12px;
+  color: rgb(219, 212, 212);
+  margin-left: 20px;
+}
+.bold {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.header__input {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.header__input > input {
+  padding: 6px;
+  flex: 1;
+  outline: none;
+  border: none;
+}
+.header__input:focus-within {
+  border: 1px solid rgb(231, 118, 0);
+  box-shadow: 0px 0px 3px 1px rgb(231, 118, 0);
+}
+.header__input > .MuiSvgIcon-root {
+  background-color: rgb(231, 118, 0);
+  padding: 5px;
+  color: black;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.header__accounts {
+  padding: 10px;
+}
+.header__accounts:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.username{
+  color: black;
+  border-radius: 50%;
+  color: red;
+
+}
+.header__orders > .small {
+  margin-left: 5px;
+}
+.header__cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* header--nav */
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #232f3e;
+  align-items: center;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.header__nav--left {
+  display: flex;
+  margin-left: -10px;
+}
+.navlink {
+  display: flex;
+  margin: 5px 10px;
+  align-items: center;
+}
+.navlink:hover {
+  cursor: pointer;
+  color: rgb(194, 194, 194);
+}
+.navlink > p {
+  text-transform: capitalize;
+}
+.header__nav--right > h2 {
+  font-weight: 100;
+}

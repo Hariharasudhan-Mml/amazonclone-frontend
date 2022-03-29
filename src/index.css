@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: Ember-head;
+  src:  url("./fonts//Ember/AmazonEmber_He.ttf");
+}
+@font-face {
+  font-family: Ember;
+  src:  url("./fonts//Ember/AmazonEmber_Lt.ttf");
+}
+@font-face {
+  font-family: Ember-normal;
+  src:  url("./fonts/Ember/Amazon-Ember-Medium.ttf");
+}
+@font-face {
+  font-family:Normal;
+  src:  url("./fonts/Ember/AmazonEmber_Rg.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: #eaeded;
+  /* overflow-x:hidden; */
 }

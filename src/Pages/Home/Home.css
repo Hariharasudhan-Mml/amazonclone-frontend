@@ -1,0 +1,75 @@
+.products__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product {
+  width:250px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  margin: 10px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  font-family: Normal;
+  font-weight: 100;
+  font-size: 15px;
+}
+.product > img {
+  width: 200px;
+  margin: 10px auto;
+  background-color: none;
+}
+.product__brand {
+  color: greenyellow;
+  margin: 10px 20px 0 20px;
+  padding: 5px 10px;
+  text-align: left;
+  background-color: grey;
+  width: fit-content;
+  border-radius: 20px;
+}
+.product__price {
+  text-align: left;
+  margin: 0 10px 0 10px;
+}
+.saleprice {
+  font-size: 20px;
+  color: #b12704;
+  margin-right: 5px;
+}
+.price {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: grey;
+}
+.product__discount{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: rgb(134, 133, 133);
+    font-size: 15px;
+}
+.addToCart {
+  margin-top:5px !important;
+  width: 100%;
+  text-transform: capitalize !important;
+  background-color: #ffa41c !important;
+  font-weight: 600 !important;
+
+}
+.product__prime{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3098c6;
+}
+.product__prime> svg{
+color:#f8961e;
+}
+.addToCart:hover {
+  background-color: #eb910a !important;
+}

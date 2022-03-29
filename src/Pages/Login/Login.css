@@ -1,0 +1,105 @@
+.login {
+  width: 30%;
+  height: fit-content;
+  margin: 10px auto;
+  font-family: Ember;
+}
+.login__logo {
+  height: 60px;
+  display: flex;
+  margin: 0 auto;
+}
+.loginInput__container {
+  padding: 25px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
+.login__form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form > input:focus {
+  border: 1px solid rgb(231, 118, 0);
+  box-shadow: 0px 0px 3px 1px rgb(231, 118, 0);
+}
+form button {
+  padding: 8px;
+  background-color: #fad06e;
+  border: none;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.login__form > button:hover {
+  background-color: #f8c857;
+}
+.loginInput__container > p {
+  font-size: 14px;
+}
+.loginInput__container a {
+  color: #2f85d6;
+  text-decoration: none;
+}
+.loginInput__container a:hover {
+  color: rgb(231, 118, 0);
+  text-decoration: underline;
+}
+.login__help {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.login__divider {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.login__divider > p::before {
+  content: "---------------";
+  margin-right: 10px;
+}
+.login__divider > p::after {
+  content: "---------------";
+  margin-left: 10px;
+}
+
+.login__createbtn > button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.login__createbtn > button:hover {
+  background-color: rgb(161, 156, 156);
+}
+.login__footer {
+  width: 100%;
+  border-top: 1px solid darkgray;
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  height: 180px;
+  padding: 0 30px;
+}
+.login__footer > p {
+  width: 30%;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+.login__footer > p:first-child {
+  margin: 20px auto;
+}
+.login__footer > p > a {
+  margin: 5px 10px;
+  color: #2f85d6;
+  text-decoration: none;
+}
+.login__footer > p > a:hover {
+  color: rgb(231, 118, 0);
+  text-decoration: underline;
+}
