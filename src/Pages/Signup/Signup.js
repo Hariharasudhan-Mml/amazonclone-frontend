@@ -17,7 +17,7 @@ const Signup = () => {
         if (!firstname.trim() || !lastname.trim() || !email.trim() || !password.trim()) {
             alert('Details cannot be empty')
         }
-     await Axios.post(`http://amazon-clone-by-hari.herokuapp.com/signup`, {
+     await Axios.post(`https://amazon-clone-by-hari.herokuapp.com/signup`, {
             firstname,
             lastname,
             email,
